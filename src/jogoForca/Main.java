@@ -24,7 +24,7 @@ public class Main extends Palavras {
         while (vidas > 0) {
             System.out.println("Palavra: " + String.valueOf(caracteres));
             System.out.print("Digite uma letra: ");
-            String letraString = scanner.nextLine();
+            String letraString = scanner.nextLine().toLowerCase();
             char letra = letraString.charAt(0);
 
             boolean acertou = false;
