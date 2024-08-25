@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main extends Palavras {
     public static void main(String[] args) {
 
-        // Seleciona uma palavra aleatória do array
+
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
         String str = palavras[random.nextInt(palavras.length)];
